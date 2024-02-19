@@ -14,5 +14,4 @@ if __name__ == '__main__':
 
     spark = Utils.get_spark_session(job_run_env)
     logger = Log4j(spark)
-
     logger.info("Finished creating Spark Session")
